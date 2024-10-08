@@ -5,19 +5,19 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{05CDCF21-83AF-4117-B059-A285F67CE4A9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B0E77458-1999-44CE-A2A5-15560C0FFF20}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B0E77458-1999-44CE-A2A5-15560C0FFF20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadeSemlimites.Api", "src\CidadeSemlimites.Api\CidadeSemlimites.Api.csproj", "{66FB532C-BDE4-46F6-9A1B-C970BA766C31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Api", "src\CidadeSemlimites.Api\CidadeSemLimites.Api.csproj", "{66FB532C-BDE4-46F6-9A1B-C970BA766C31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadeSemLimites.Exception", "src\CidadeSemLimites.Exception\CidadeSemLimites.Exception.csproj", "{CDA5FF6C-5259-4742-A94F-20F42AA6340C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Exception", "src\CidadeSemLimites.Exception\CidadeSemLimites.Exception.csproj", "{CDA5FF6C-5259-4742-A94F-20F42AA6340C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadeSemLimites.Application", "src\CidadeSemLimites.Application\CidadeSemLimites.Application.csproj", "{1CAA3037-27C1-4198-85AD-C266CBFA49B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Application", "src\CidadeSemLimites.Application\CidadeSemLimites.Application.csproj", "{1CAA3037-27C1-4198-85AD-C266CBFA49B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadeSemLimites.Communitcation", "src\CidadeSemLimites.Communitcation\CidadeSemLimites.Communitcation.csproj", "{4C953E10-2293-43A9-B0A0-8E86247E4D19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Communitcation", "src\CidadeSemLimites.Communitcation\CidadeSemLimites.Communitcation.csproj", "{4C953E10-2293-43A9-B0A0-8E86247E4D19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadeSemLimites.Domain", "src\CidadeSemLimites.Domain\CidadeSemLimites.Domain.csproj", "{17866F80-FABF-4567-A941-4E1B0C7D4F2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Domain", "src\CidadeSemLimites.Domain\CidadeSemLimites.Domain.csproj", "{17866F80-FABF-4567-A941-4E1B0C7D4F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CidadeSemLimites.Infrastructure", "src\CidadeSemLimites.Infrastructure\CidadeSemLimites.Infrastructure.csproj", "{15167359-3638-4721-9481-146E7109375A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Infrastructure", "src\CidadeSemLimites.Infrastructure\CidadeSemLimites.Infrastructure.csproj", "{15167359-3638-4721-9481-146E7109375A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

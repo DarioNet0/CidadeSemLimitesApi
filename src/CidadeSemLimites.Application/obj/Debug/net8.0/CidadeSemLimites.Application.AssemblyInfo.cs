@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CidadeSemLimites.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4d9bd995742dacf0efc359a37ea466325772dc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CidadeSemLimites.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CidadeSemLimites.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
