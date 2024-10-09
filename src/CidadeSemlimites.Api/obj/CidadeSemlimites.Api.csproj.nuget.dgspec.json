@@ -31,8 +31,8 @@
               "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Application\\CidadeSemLimites.Application.csproj": {
                 "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Application\\CidadeSemLimites.Application.csproj"
               },
-              "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj": {
-                "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj"
+              "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj": {
+                "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj"
               },
               "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Exception\\CidadeSemLimites.Exception.csproj": {
                 "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Exception\\CidadeSemLimites.Exception.csproj"
@@ -57,7 +57,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -111,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj": {
-                "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj"
+              "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj": {
+                "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj"
               },
               "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj": {
                 "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj"
@@ -152,12 +152,12 @@
         }
       }
     },
-    "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj": {
+    "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj",
-        "projectName": "CidadeSemLimites.Communitcation",
-        "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj",
+        "projectUniqueName": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj",
+        "projectName": "CidadeSemLimites.Communication",
+        "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj",
         "packagesPath": "C:\\Users\\046730\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\obj\\",
         "projectStyle": "PackageReference",
@@ -359,21 +359,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [

@@ -1,4 +1,6 @@
-﻿using CidadeSemLimites.Infrastructure.DataAccess;
+﻿using CidadeSemLimites.Domain.Repositories;
+using CidadeSemLimites.Infrastructure.DataAccess;
+using CidadeSemLimites.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -6,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace CidadeSemLimites.Infrastructure
 {
     public static class DependencyInjectionExtension
-    { 
+    {
         public static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             AddDbContext(services, configuration);
@@ -19,7 +21,9 @@ namespace CidadeSemLimites.Infrastructure
         }
         private static void AddRepository(IServiceCollection services)
         {
-
+            services.AddScoped<IReadOnlyRepository, CidadeSemLimitesRepository>();
+            services.AddScoped<IUpdateOnlyRepository, CidadeSemLimitesRepository>();
+            services.AddScoped<IWriteOnlyRepository, CidadeSemLimitesRepository>();
         }
     }
 }

@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Exception"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Application", "src\CidadeSemLimites.Application\CidadeSemLimites.Application.csproj", "{1CAA3037-27C1-4198-85AD-C266CBFA49B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Communitcation", "src\CidadeSemLimites.Communitcation\CidadeSemLimites.Communitcation.csproj", "{4C953E10-2293-43A9-B0A0-8E86247E4D19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Communication", "src\CidadeSemLimites.Communitcation\CidadeSemLimites.Communication.csproj", "{4C953E10-2293-43A9-B0A0-8E86247E4D19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CidadeSemLimites.Domain", "src\CidadeSemLimites.Domain\CidadeSemLimites.Domain.csproj", "{17866F80-FABF-4567-A941-4E1B0C7D4F2D}"
 EndProject

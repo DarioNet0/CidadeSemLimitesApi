@@ -2,14 +2,14 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "CidadeSemLimites.Communitcation/1.0.0": {
+      "CidadeSemLimites.Communication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/CidadeSemLimites.Communitcation.dll": {}
+          "bin/placeholder/CidadeSemLimites.Communication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CidadeSemLimites.Communitcation.dll": {}
+          "bin/placeholder/CidadeSemLimites.Communication.dll": {}
         }
       },
       "CidadeSemLimites.Domain/1.0.0": {
@@ -35,10 +35,10 @@
     }
   },
   "libraries": {
-    "CidadeSemLimites.Communitcation/1.0.0": {
+    "CidadeSemLimites.Communication/1.0.0": {
       "type": "project",
-      "path": "../CidadeSemLimites.Communitcation/CidadeSemLimites.Communitcation.csproj",
-      "msbuildProject": "../CidadeSemLimites.Communitcation/CidadeSemLimites.Communitcation.csproj"
+      "path": "../CidadeSemLimites.Communitcation/CidadeSemLimites.Communication.csproj",
+      "msbuildProject": "../CidadeSemLimites.Communitcation/CidadeSemLimites.Communication.csproj"
     },
     "CidadeSemLimites.Domain/1.0.0": {
       "type": "project",
@@ -53,7 +53,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CidadeSemLimites.Communitcation >= 1.0.0",
+      "CidadeSemLimites.Communication >= 1.0.0",
       "CidadeSemLimites.Domain >= 1.0.0",
       "CidadeSemLimites.Exception >= 1.0.0"
     ]
@@ -85,8 +85,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj": {
-              "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj"
+            "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj": {
+              "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj"
             },
             "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj": {
               "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj"

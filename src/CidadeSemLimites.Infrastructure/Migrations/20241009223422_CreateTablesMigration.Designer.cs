@@ -4,6 +4,7 @@ using CidadeSemLimites.Infrastructure.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CidadeSemLimites.Infrastructure.Migrations
 {
     [DbContext(typeof(CidadeSemLimitesDbContext))]
-    partial class CidadeSemLimitesDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241009223422_CreateTablesMigration")]
+    partial class CreateTablesMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj",
-      "projectName": "CidadeSemLimites.Communitcation",
-      "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communitcation.csproj",
+      "projectUniqueName": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj",
+      "projectName": "CidadeSemLimites.Communication",
+      "projectPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj",
       "packagesPath": "C:\\Users\\046730\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\obj\\",
       "projectStyle": "PackageReference",

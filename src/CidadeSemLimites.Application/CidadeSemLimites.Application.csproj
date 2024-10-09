@@ -7,9 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CidadeSemLimites.Communitcation\CidadeSemLimites.Communitcation.csproj" />
+    <ProjectReference Include="..\CidadeSemLimites.Communitcation\CidadeSemLimites.Communication.csproj" />
     <ProjectReference Include="..\CidadeSemLimites.Domain\CidadeSemLimites.Domain.csproj" />
     <ProjectReference Include="..\CidadeSemLimites.Exception\CidadeSemLimites.Exception.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Validators\" />
+    <Folder Include="UseCases\" />
   </ItemGroup>
 
 </Project>

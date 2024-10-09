@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CidadeSemLimites.Application\CidadeSemLimites.Application.csproj" />
-    <ProjectReference Include="..\CidadeSemLimites.Communitcation\CidadeSemLimites.Communitcation.csproj" />
+    <ProjectReference Include="..\CidadeSemLimites.Communitcation\CidadeSemLimites.Communication.csproj" />
     <ProjectReference Include="..\CidadeSemLimites.Exception\CidadeSemLimites.Exception.csproj" />
     <ProjectReference Include="..\CidadeSemLimites.Infrastructure\CidadeSemLimites.Infrastructure.csproj" />
   </ItemGroup>
