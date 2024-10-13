@@ -110,9 +110,6 @@ namespace CidadeSemLimites.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("UniqueIdentifier")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<int>("WaypointType")
                         .HasColumnType("int");
 

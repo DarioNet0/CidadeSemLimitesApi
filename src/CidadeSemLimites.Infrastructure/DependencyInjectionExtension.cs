@@ -1,6 +1,7 @@
 ﻿using CidadeSemLimites.Domain;
 using CidadeSemLimites.Domain.Repositories;
 using CidadeSemLimites.Domain.Repositories.Posts;
+using CidadeSemLimites.Domain.Repositories.Waypoints;
 using CidadeSemLimites.Infrastructure.DataAccess;
 using CidadeSemLimites.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -28,6 +29,10 @@ namespace CidadeSemLimites.Infrastructure
             services.AddScoped<IPostReadOnlyRepository, PostRepository>();
             services.AddScoped<IPostUpdateOnlyRepository, PostRepository>();
             services.AddScoped<IPostWriteOnlyRepository, PostRepository>();
+
+            services.AddScoped<IWaypointsReadOnlyRepository, WaypointRepository>();
+            services.AddScoped<IWaypointsUpdateRepository, WaypointRepository>();
+            services.AddScoped<IWaypointWriteOnlyRepository, WaypointRepository>();
         }
     }
 }

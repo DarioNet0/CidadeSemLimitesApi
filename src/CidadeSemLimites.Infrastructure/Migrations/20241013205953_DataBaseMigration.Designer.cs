@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CidadeSemLimites.Infrastructure.Migrations
 {
     [DbContext(typeof(CidadeSemLimitesDbContext))]
-    [Migration("20241012222623_DataBaseMigration")]
+    [Migration("20241013205953_DataBaseMigration")]
     partial class DataBaseMigration
     {
         /// <inheritdoc />
@@ -112,9 +112,6 @@ namespace CidadeSemLimites.Infrastructure.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("UniqueIdentifier")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("WaypointType")
                         .HasColumnType("int");

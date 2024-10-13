@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Workspace\\Projetos\\CidadeSemLimites\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|solutionrelative:src\\cidadesemlimites.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.domain\\repositories\\posts\\ipostwriteonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|solutionrelative:src\\cidadesemlimites.domain\\repositories\\posts\\ipostwriteonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.domain\\repositories\\posts\\ipostreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|solutionrelative:src\\cidadesemlimites.domain\\repositories\\posts\\ipostreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.api\\controllers\\waypointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|solutionrelative:src\\cidadesemlimites.api\\controllers\\waypointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPostReadOnlyRepository.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
-              "RelativeToolTip": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:05:36.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPostWriteOnlyRepository.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
-              "RelativeToolTip": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:05:31.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
-              "RelativeToolTip": "src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAAIAAAAAAAAAA==",
+              "Title": "WaypointController.cs",
+              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Controllers\\WaypointController.cs",
+              "RelativeDocumentMoniker": "src\\CidadeSemlimites.Api\\Controllers\\WaypointController.cs",
+              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Controllers\\WaypointController.cs",
+              "RelativeToolTip": "src\\CidadeSemlimites.Api\\Controllers\\WaypointController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:00:00.002Z",
+              "WhenOpened": "2024-10-13T21:05:35.931Z",
               "EditorCaption": ""
             }
           ]

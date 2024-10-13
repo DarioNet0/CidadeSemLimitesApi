@@ -3,6 +3,5 @@
     public enum WaypointTypes
     {
         Rampa = 1,
-
     }
 }
