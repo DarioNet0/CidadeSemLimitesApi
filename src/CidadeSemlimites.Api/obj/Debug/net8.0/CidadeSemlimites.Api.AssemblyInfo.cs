@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CidadeSemLimites.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33293c84ec4ce9fdc55b68807d324d730ebf37c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be492033b017c53af9fbe58340788a43e5d7fda8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CidadeSemLimites.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CidadeSemLimites.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

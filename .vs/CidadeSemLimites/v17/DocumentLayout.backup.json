@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Workspace\\Projetos\\CidadeSemLimites\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CAA3037-27C1-4198-85AD-C266CBFA49B6}|src\\CidadeSemLimites.Application\\CidadeSemLimites.Application.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.application\\validators\\posts\\postvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CAA3037-27C1-4198-85AD-C266CBFA49B6}|src\\CidadeSemLimites.Application\\CidadeSemLimites.Application.csproj|solutionrelative:src\\cidadesemlimites.application\\validators\\posts\\postvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|solutionrelative:src\\cidadesemlimites.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDA5FF6C-5259-4742-A94F-20F42AA6340C}|src\\CidadeSemLimites.Exception\\CidadeSemLimites.Exception.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.exception\\exceptionbase\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDA5FF6C-5259-4742-A94F-20F42AA6340C}|src\\CidadeSemLimites.Exception\\CidadeSemLimites.Exception.csproj|solutionrelative:src\\cidadesemlimites.exception\\exceptionbase\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.domain\\repositories\\posts\\ipostwriteonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|solutionrelative:src\\cidadesemlimites.domain\\repositories\\posts\\ipostwriteonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDA5FF6C-5259-4742-A94F-20F42AA6340C}|src\\CidadeSemLimites.Exception\\CidadeSemLimites.Exception.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.exception\\exceptionbase\\cidadesemlimitesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDA5FF6C-5259-4742-A94F-20F42AA6340C}|src\\CidadeSemLimites.Exception\\CidadeSemLimites.Exception.csproj|solutionrelative:src\\cidadesemlimites.exception\\exceptionbase\\cidadesemlimitesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CAA3037-27C1-4198-85AD-C266CBFA49B6}|src\\CidadeSemLimites.Application\\CidadeSemLimites.Application.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.application\\usecases\\posts\\add\\addpostusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CAA3037-27C1-4198-85AD-C266CBFA49B6}|src\\CidadeSemLimites.Application\\CidadeSemLimites.Application.csproj|solutionrelative:src\\cidadesemlimites.application\\usecases\\posts\\add\\addpostusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C953E10-2293-43A9-B0A0-8E86247E4D19}|src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.communitcation\\responses\\responseerrorjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C953E10-2293-43A9-B0A0-8E86247E4D19}|src\\CidadeSemLimites.Communitcation\\CidadeSemLimites.Communication.csproj|solutionrelative:src\\cidadesemlimites.communitcation\\responses\\responseerrorjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|solutionrelative:src\\cidadesemlimites.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66FB532C-BDE4-46F6-9A1B-C970BA766C31}|src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj|solutionrelative:src\\cidadesemlimites.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|c:\\workspace\\projetos\\cidadesemlimites\\src\\cidadesemlimites.domain\\repositories\\posts\\ipostreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17866F80-FABF-4567-A941-4E1B0C7D4F2D}|src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj|solutionrelative:src\\cidadesemlimites.domain\\repositories\\posts\\ipostreadonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PostValidator.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Application\\Validators\\Posts\\PostValidator.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Application\\Validators\\Posts\\PostValidator.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Application\\Validators\\Posts\\PostValidator.cs",
-              "RelativeToolTip": "src\\CidadeSemLimites.Application\\Validators\\Posts\\PostValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IPostReadOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
+              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
+              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
+              "RelativeToolTip": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostReadOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T23:01:48.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemlimites.Api\\Program.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Program.cs",
-              "RelativeToolTip": "src\\CidadeSemlimites.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:58:17.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResponseErrorJson.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\Responses\\ResponseErrorJson.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Communitcation\\Responses\\ResponseErrorJson.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Communitcation\\Responses\\ResponseErrorJson.cs",
-              "RelativeToolTip": "src\\CidadeSemLimites.Communitcation\\Responses\\ResponseErrorJson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:55:18.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Filters\\ExceptionFilter.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemlimites.Api\\Filters\\ExceptionFilter.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Filters\\ExceptionFilter.cs",
-              "RelativeToolTip": "src\\CidadeSemlimites.Api\\Filters\\ExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:53:53.738Z",
+              "WhenOpened": "2024-10-13T19:05:36.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ErrorOnValidationException.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Exception\\ExceptionBase\\ErrorOnValidationException.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Exception\\ExceptionBase\\ErrorOnValidationException.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Exception\\ExceptionBase\\ErrorOnValidationException.cs",
-              "RelativeToolTip": "src\\CidadeSemLimites.Exception\\ExceptionBase\\ErrorOnValidationException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Title": "IPostWriteOnlyRepository.cs",
+              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
+              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
+              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
+              "RelativeToolTip": "src\\CidadeSemLimites.Domain\\Repositories\\Posts\\IPostWriteOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:47:43.571Z",
+              "WhenOpened": "2024-10-13T19:05:31.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CidadeSemLimitesException.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Exception\\ExceptionBase\\CidadeSemLimitesException.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Exception\\ExceptionBase\\CidadeSemLimitesException.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Exception\\ExceptionBase\\CidadeSemLimitesException.cs",
-              "RelativeToolTip": "src\\CidadeSemLimites.Exception\\ExceptionBase\\CidadeSemLimitesException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
+              "RelativeToolTip": "src\\CidadeSemlimites.Api\\Controllers\\PostController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwC4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:47:17.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddPostUseCase.cs",
-              "DocumentMoniker": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Application\\UseCases\\Posts\\Add\\AddPostUseCase.cs",
-              "RelativeDocumentMoniker": "src\\CidadeSemLimites.Application\\UseCases\\Posts\\Add\\AddPostUseCase.cs",
-              "ToolTip": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Application\\UseCases\\Posts\\Add\\AddPostUseCase.cs",
-              "RelativeToolTip": "src\\CidadeSemLimites.Application\\UseCases\\Posts\\Add\\AddPostUseCase.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T22:45:43.159Z",
+              "WhenOpened": "2024-10-13T19:00:00.002Z",
               "EditorCaption": ""
             }
           ]

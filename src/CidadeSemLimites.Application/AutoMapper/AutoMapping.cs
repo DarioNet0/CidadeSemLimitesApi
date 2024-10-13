@@ -21,6 +21,7 @@ namespace CidadeSemLimites.Application.AutoMapper
         private void EntityToResponse()
         {
             CreateMap<Posts, ResponseAddPostJson>();
+            CreateMap<Posts, ResponseGetPostsBaseJson>();
         }
     }
 }
