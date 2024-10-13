@@ -10,5 +10,7 @@ namespace CidadeSemLimites.Domain.Entities
         public WaypointTypes WaypointType { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+
     }
 }

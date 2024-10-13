@@ -1,6 +1,6 @@
 ﻿namespace CidadeSemLimites.Domain.Repositories
 {
-    public interface IUpdateOnlyRepository
+    public interface IPostUpdateOnlyRepository
     {
     }
 }

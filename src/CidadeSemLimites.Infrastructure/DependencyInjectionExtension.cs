@@ -1,4 +1,6 @@
-﻿using CidadeSemLimites.Domain.Repositories;
+﻿using CidadeSemLimites.Domain;
+using CidadeSemLimites.Domain.Repositories;
+using CidadeSemLimites.Domain.Repositories.Posts;
 using CidadeSemLimites.Infrastructure.DataAccess;
 using CidadeSemLimites.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -18,12 +20,14 @@ namespace CidadeSemLimites.Infrastructure
         {
             string connectionString = configuration.GetConnectionString("Connection")!;
             services.AddDbContext<CidadeSemLimitesDbContext>(config => config.UseSqlServer(connectionString));
+
+            services.AddScoped<IUnitOfWork, UnityOfWork>();
         }
         private static void AddRepository(IServiceCollection services)
         {
-            services.AddScoped<IReadOnlyRepository, CidadeSemLimitesRepository>();
-            services.AddScoped<IUpdateOnlyRepository, CidadeSemLimitesRepository>();
-            services.AddScoped<IWriteOnlyRepository, CidadeSemLimitesRepository>();
+            services.AddScoped<IPostReadOnlyRepository, PostRepository>();
+            services.AddScoped<IPostUpdateOnlyRepository, PostRepository>();
+            services.AddScoped<IPostWriteOnlyRepository, PostRepository>();
         }
     }
 }

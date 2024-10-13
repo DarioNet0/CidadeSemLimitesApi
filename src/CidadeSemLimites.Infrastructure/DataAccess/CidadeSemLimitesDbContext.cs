@@ -12,6 +12,5 @@ namespace CidadeSemLimites.Infrastructure.DataAccess
         public DbSet<Posts> Posts { get; set; }
         public DbSet<SiteFeedbacks> SiteFeedbacks { get; set; }
         public DbSet<Waypoints> Waypoints { get; set; }
-
     }
 }

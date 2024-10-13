@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CidadeSemLimites.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a00ec07dbc39ec361eeeeb879922fc2933c9361")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33293c84ec4ce9fdc55b68807d324d730ebf37c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CidadeSemLimites.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CidadeSemLimites.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

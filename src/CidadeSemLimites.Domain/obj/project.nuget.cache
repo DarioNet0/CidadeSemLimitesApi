@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZHtU+1erMvwg7uKmBb+WYRb6kSAlLQmgOsQ0y9LsjGopS7tQekhX8dzMBX8sZmvUY8Y0df+Xeh3PyWnGO8VbWg==",
+  "dgSpecHash": "W/zv8NlChWo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\046730\\Desktop\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj",
+  "projectFilePath": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemLimites.Domain\\CidadeSemLimites.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

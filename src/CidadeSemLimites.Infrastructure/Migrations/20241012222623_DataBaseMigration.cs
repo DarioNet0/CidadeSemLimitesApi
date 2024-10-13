@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace CidadeSemLimites.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateTablesMigration : Migration
+    public partial class DataBaseMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,10 +17,12 @@ namespace CidadeSemLimites.Infrastructure.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Neighborhood = table.Column<string>(type: "varchar(255)", nullable: false),
-                    Street = table.Column<string>(type: "varchar(255)", nullable: true),
-                    Description = table.Column<string>(type: "varchar(255)", nullable: false),
-                    Author = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Neighborhood = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Street = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -32,10 +35,11 @@ namespace CidadeSemLimites.Infrastructure.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    AvaliatorName = table.Column<string>(type: "varchar(255)", nullable: false),
-                    AvaliatorEmail = table.Column<string>(type: "varchar(255)", nullable: false),
+                    AvaliatorName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    AvaliatorEmail = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Rating = table.Column<int>(type: "int", nullable: false),
-                    Message = table.Column<string>(type: "varchar(255)", nullable: false)
+                    Message = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -49,10 +53,11 @@ namespace CidadeSemLimites.Infrastructure.Migrations
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UniqueIdentifier = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "varchar(255)", nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     WaypointType = table.Column<int>(type: "int", nullable: false),
                     Latitude = table.Column<double>(type: "float", nullable: false),
-                    Longitude = table.Column<double>(type: "float", nullable: false)
+                    Longitude = table.Column<double>(type: "float", nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
