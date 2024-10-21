@@ -1,4 +1,5 @@
-﻿using CidadeSemLimites.Application.UseCases.Waypoints;
+﻿using CidadeSemLimites.Application.UseCases.Waypoints.Add;
+using CidadeSemLimites.Application.UseCases.Waypoints.GetAll;
 using CidadeSemLimites.Communication.Requests.Waypoints;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,6 +18,16 @@ namespace CidadeSemLimites.Api.Controllers
             var reponse = await useCase.Execute(request);
 
             return Created(string.Empty, reponse);
+        }
+
+        [HttpGet]
+
+        public async Task<IActionResult> GetAll(
+            [FromServices] IGetAllWaypointsUseCase useCase
+            )
+        {
+            var Response = await useCase.Execute();
+            return Ok(Response);
         }
     }
 }

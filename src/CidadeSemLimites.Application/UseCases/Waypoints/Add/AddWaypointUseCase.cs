@@ -4,7 +4,7 @@ using CidadeSemLimites.Communication.Responses.Waypoints;
 using CidadeSemLimites.Domain;
 using CidadeSemLimites.Domain.Repositories.Waypoints;
 
-namespace CidadeSemLimites.Application.UseCases.Waypoints
+namespace CidadeSemLimites.Application.UseCases.Waypoints.Add
 {
     public class AddWaypointUseCase : IAddWaypointUseCase
     {

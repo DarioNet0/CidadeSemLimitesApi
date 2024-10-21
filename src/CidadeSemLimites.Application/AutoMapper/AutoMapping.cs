@@ -26,6 +26,7 @@ namespace CidadeSemLimites.Application.AutoMapper
             CreateMap<Posts, ResponseAddPostJson>();
             CreateMap<Posts, ResponseGetPostsBaseJson>();
             CreateMap<Waypoints, ResponseAddWaypointJson>();
+            CreateMap<Waypoints, ResponseGetWaypointsBaseJson>();
         }
     }
 }

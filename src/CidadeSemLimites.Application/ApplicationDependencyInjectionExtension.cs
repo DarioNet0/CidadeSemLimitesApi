@@ -2,7 +2,8 @@
 using CidadeSemLimites.Application.UseCases.Posts.Add;
 using CidadeSemLimites.Application.UseCases.Posts.GetAll;
 using CidadeSemLimites.Application.UseCases.Posts.GetByDescription;
-using CidadeSemLimites.Application.UseCases.Waypoints;
+using CidadeSemLimites.Application.UseCases.Waypoints.Add;
+using CidadeSemLimites.Application.UseCases.Waypoints.GetAll;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CidadeSemLimites.Application
@@ -20,6 +21,7 @@ namespace CidadeSemLimites.Application
             services.AddScoped<IGetAllPostsUseCase, GetAllPostsUseCase>();
             services.AddScoped<IGetPostByDescriptionUseCase, GetPostByDescriptionUseCase>();
             services.AddScoped<IAddWaypointUseCase, AddWaypointUseCase>();
+            services.AddScoped<IGetAllWaypointsUseCase, GetAllWaypointsUseCase>();
         }
         private static void AddMapper(IServiceCollection services)
         {
