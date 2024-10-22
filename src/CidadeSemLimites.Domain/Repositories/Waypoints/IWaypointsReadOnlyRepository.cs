@@ -2,5 +2,6 @@
 {
     public interface IWaypointsReadOnlyRepository
     {
+        Task<List<Entities.Waypoints>> GetAll();
     }
 }

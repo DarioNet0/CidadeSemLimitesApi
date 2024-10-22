@@ -1,6 +1,7 @@
 ﻿using CidadeSemLimites.Domain.Entities;
 using CidadeSemLimites.Domain.Repositories.Waypoints;
 using CidadeSemLimites.Infrastructure.DataAccess;
+using Microsoft.EntityFrameworkCore;
 
 namespace CidadeSemLimites.Infrastructure.Repositories
 {
@@ -14,6 +15,11 @@ namespace CidadeSemLimites.Infrastructure.Repositories
         public async Task Add(Waypoints waypoints)
         {
             await _dbContext.Waypoints.AddAsync(waypoints);
+        }
+
+        public async Task<List<Waypoints>> GetAll()
+        {
+            return await _dbContext.Waypoints.AsNoTracking().ToListAsync();
         }
     }
 }
