@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj": {}
+    "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemlimites.Api.csproj": {}
   },
   "projects": {
-    "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj": {
+    "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemlimites.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj",
-        "projectName": "CidadeSemLimites.Api",
-        "projectPath": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemLimites.Api.csproj",
+        "projectUniqueName": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemlimites.Api.csproj",
+        "projectName": "CidadeSemlimites.Api",
+        "projectPath": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\CidadeSemlimites.Api.csproj",
         "packagesPath": "C:\\Users\\dario\\.nuget\\packages\\",
         "outputPath": "C:\\Workspace\\Projetos\\CidadeSemLimites\\src\\CidadeSemlimites.Api\\obj\\",
         "projectStyle": "PackageReference",
