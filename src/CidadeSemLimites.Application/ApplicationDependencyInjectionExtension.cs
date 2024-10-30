@@ -1,4 +1,5 @@
 ﻿using CidadeSemLimites.Application.AutoMapper;
+using CidadeSemLimites.Application.UseCases.Feedbacks.Add;
 using CidadeSemLimites.Application.UseCases.Posts.Add;
 using CidadeSemLimites.Application.UseCases.Posts.GetAll;
 using CidadeSemLimites.Application.UseCases.Posts.GetByDescription;
@@ -22,6 +23,7 @@ namespace CidadeSemLimites.Application
             services.AddScoped<IGetPostByDescriptionUseCase, GetPostByDescriptionUseCase>();
             services.AddScoped<IAddWaypointUseCase, AddWaypointUseCase>();
             services.AddScoped<IGetAllWaypointsUseCase, GetAllWaypointsUseCase>();
+            services.AddScoped<IAddFeedbackUseCase, AddFeedbackUseCase>();
         }
         private static void AddMapper(IServiceCollection services)
         {

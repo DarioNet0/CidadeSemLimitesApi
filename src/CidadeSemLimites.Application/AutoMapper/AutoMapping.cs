@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using CidadeSemLimites.Communication.Requests.Feedback;
 using CidadeSemLimites.Communication.Requests.Posts;
 using CidadeSemLimites.Communication.Requests.Waypoints;
+using CidadeSemLimites.Communication.Responses.Feedback;
 using CidadeSemLimites.Communication.Responses.Posts;
 using CidadeSemLimites.Communication.Responses.Waypoints;
 using CidadeSemLimites.Domain.Entities;
@@ -19,6 +21,7 @@ namespace CidadeSemLimites.Application.AutoMapper
         {
             CreateMap<RequestAddPostJson, Posts>();
             CreateMap<RequestAddWaypointJson, Waypoints>();
+            CreateMap<RequestAddFeedbackJson, SiteFeedbacks>();
         }
 
         private void EntityToResponse()
@@ -27,6 +30,7 @@ namespace CidadeSemLimites.Application.AutoMapper
             CreateMap<Posts, ResponseGetPostsBaseJson>();
             CreateMap<Waypoints, ResponseAddWaypointJson>();
             CreateMap<Waypoints, ResponseGetWaypointsBaseJson>();
+            CreateMap<SiteFeedbacks, ResponseAddFeedbackJson>();
         }
     }
 }

@@ -20,6 +20,6 @@ namespace CidadeSemLimites.Infrastructure.Repositories
         public async Task<List<Waypoints>> GetAll()
         {
             return await _dbContext.Waypoints.AsNoTracking().ToListAsync();
-        }
+        }   
     }
 }

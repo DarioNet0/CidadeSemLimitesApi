@@ -1,5 +1,6 @@
 ﻿using CidadeSemLimites.Domain;
 using CidadeSemLimites.Domain.Repositories;
+using CidadeSemLimites.Domain.Repositories.Feedback;
 using CidadeSemLimites.Domain.Repositories.Posts;
 using CidadeSemLimites.Domain.Repositories.Waypoints;
 using CidadeSemLimites.Infrastructure.DataAccess;
@@ -33,6 +34,11 @@ namespace CidadeSemLimites.Infrastructure
             services.AddScoped<IWaypointsReadOnlyRepository, WaypointRepository>();
             services.AddScoped<IWaypointsUpdateRepository, WaypointRepository>();
             services.AddScoped<IWaypointWriteOnlyRepository, WaypointRepository>();
+
+            services.AddScoped<IFeedbackReadOnlyRepository, FeedbackRepository>();
+            services.AddScoped<IFeedbackUpdateOnlyRepository, FeedbackRepository>();
+            services.AddScoped<IFeedbackWriteOnlyRepository, FeedbackRepository>();
+
         }
     }
 }

@@ -1,4 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CidadeSemLimites.Application.UseCases.Posts.Add;
+using CidadeSemLimites.Communication.Requests.Posts;
+using CidadeSemLimites.Communication.Responses.Posts;
+using CidadeSemLimites.Communication.Responses;
+using Microsoft.AspNetCore.Mvc;
+using CidadeSemLimites.Communication.Responses.Feedback;
+using CidadeSemLimites.Application.UseCases.Feedbacks.Add;
+using CidadeSemLimites.Communication.Requests.Feedback;
 
 namespace CidadeSemLimites.Api.Controllers
 {
@@ -6,5 +13,16 @@ namespace CidadeSemLimites.Api.Controllers
     [ApiController]
     public class FeedbackController : ControllerBase
     {
+        [HttpPost]
+        [ProducesResponseType(typeof(ResponseAddFeedbackJson), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Add(
+        [FromServices] IAddFeedbackUseCase useCase,
+        [FromBody] RequestAddFeedbackJson request)
+        {
+            var response = await useCase.Execute(request);
+
+            return Created(string.Empty, response);
+        }
     }
 }
