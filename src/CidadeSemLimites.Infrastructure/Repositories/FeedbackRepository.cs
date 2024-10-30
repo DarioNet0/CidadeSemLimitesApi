@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CidadeSemLimites.Domain.Repositories.Feedback;
+using Microsoft.EntityFrameworkCore;
 
 namespace CidadeSemLimites.Infrastructure.Repositories
 {
@@ -21,6 +22,13 @@ namespace CidadeSemLimites.Infrastructure.Repositories
         public async Task Add(SiteFeedbacks FeedbackPost)
         {
             await _dbContext.SiteFeedbacks.AddAsync(FeedbackPost);
+        }
+        public async Task<List<SiteFeedbacks>> ListTop3()
+        {
+          return  await _dbContext.SiteFeedbacks
+           .OrderByDescending(e => e.CreatedAt)
+           .Take(3)
+           .ToListAsync();
         }
     }
 }

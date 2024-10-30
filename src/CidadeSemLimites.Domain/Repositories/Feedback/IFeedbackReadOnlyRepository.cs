@@ -8,5 +8,6 @@ namespace CidadeSemLimites.Domain.Repositories.Feedback
 {
     public interface IFeedbackReadOnlyRepository
     {
+        Task<List<Domain.Entities.SiteFeedbacks>> ListTop3();
     }
 }
